@@ -1,15 +1,15 @@
 title: Jordan Ye # your name (or website title) here
 logo: "/images/profile.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
   Hi, I'm Jordan Ye, a business analyst passionate about understanding consumer psychology and leveraging data to drive impactful decisions. My portfolio highlights projects in both data analytics and visualization, reflecting my expertise in:
   <br><br>
-  Business Analysis
-  Consumer Behaviour
-  Data Visualization
-  Python & Tableau
+  I'm speicializing at
+  - Business Analysis
+  - Consumer Behaviour
+  - Data Visualization
+  - Python & Tableau
   <br><br>
-  Second description 
+  This website is built with Jekyll and GitHub Pages, using a minimal and modern design for clear project presentation.
   <br><br>
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
