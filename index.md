@@ -4,7 +4,7 @@
 
 ### Github Projects 
 
-[Project 1 Title](/sample_page)
+[MLS Dashboard](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -13,13 +13,10 @@
 
 ---
 
-### Tableau Projects
+### Tableau Visualizations
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[U.S. Viewership: Major Sports League Finals 2013 - 2024](http://example.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
