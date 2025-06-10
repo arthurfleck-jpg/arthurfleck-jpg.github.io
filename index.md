@@ -15,8 +15,8 @@
 
 ### Tableau Visualizations
 
-[U.S. Viewership: Major Sports League Finals 2013 - 2024](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[U.S. Viewership: Major Sports League Finals 2013 - 2024]([http://example.com/](https://public.tableau.com/views/usa_sports_watch_v4/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+<img src="images/Viewership_dashboard.png?raw=true"/>
 
 ---
 
