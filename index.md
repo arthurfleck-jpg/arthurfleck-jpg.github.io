@@ -4,11 +4,11 @@
 
 ### Github Projects 
 
-[MLS Dashboard](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[MLS Dashboard]([https://mls-dashboard-neuu4ihhxf.streamlit.app/])
+<img src="images/football_app.jpeg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Project 2 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
