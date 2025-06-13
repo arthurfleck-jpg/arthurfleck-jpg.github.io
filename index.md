@@ -15,7 +15,7 @@
 
 ### Tableau Visualizations
 
-[NBA Global Games Attendance 2003 - 2024]((https://public.tableau.com/views/global_game_v3/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[NBA Global Games Attendance 2003 - 2024](https://public.tableau.com/views/global_game_v3/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 <img src="images/nba_dashboard.png?raw=true"/>
 
 ---
