@@ -14,7 +14,7 @@ Created: June 20, 2025 1:43 PM
 
 To ensure our transaction dataset yields reliable insights, we’ll perform four key data‑cleaning steps:
 
-### 1. Dataset Overview
+### 1.1. Dataset Overview
 
 First, we inspect the dataset’s structure, missing values, basic statistics, and column names:
 
@@ -88,7 +88,7 @@ Column Names:
 ['User_ID', 'Product_ID', 'Category', 'Price (Rs.)', 'Discount (%)', 'Final_Price(Rs.)', 'Payment_Method', 'Purchase_Date']
 ```
 
-### 2. Datetime Conversion
+### 1.2. Datetime Conversion
 
 Convert the `Purchase_Date` column from object to datetime—coercing errors to `NaT` and assuming day‑first format—to enable robust time‑based analysis:
 
@@ -101,7 +101,7 @@ Convert the `Purchase_Date` column from object to datetime—coercing errors t
 df['Purchase_Date'] = pd.to_datetime(df['Purchase_Date'], errors='coerce', dayfirst=True)
 ```
 
-### 3. Handling Inconsistent Data
+### 1.3. Handling Inconsistent Data
 
 Standardize `Category` and `Payment_Method` by lowercasing, trimming whitespace, and removing internal spaces. This unifies entries such as “Sports” vs. “sports” and “Credit Card” vs. “CreditCard”:
 
@@ -133,7 +133,7 @@ Unique values in Category after standardization: ['sports' 'clothing' 'toys' 'be
 Unique values in Payment_Method after standardization: ['netbanking' 'creditcard' 'upi' 'cashondelivery' 'debitcard']
 ```
 
-### 4. Handling Duplicates
+### 1.4. Handling Duplicates
 
 Identify and remove exact duplicate rows—keeping only the first occurrence—to ensure each transaction is represented once:
 
@@ -168,7 +168,7 @@ With the data cleaned, we can now perform a straightforward transaction analysis
 - Monthly Transaction Trend
 - Correlation Analysis
 
-### 1. Distribution Analysis on Category and Payment Method
+### 2.1. Distribution Analysis on Category and Payment Method
 
 First, we examine how transactions are distributed across `Category` and `Payment_Method`:
 
@@ -209,7 +209,7 @@ plt.show()
 <img src="/images/pay_distribution.png" alt="Payment Distribution"/>
 
 
-### 2.Monthly Transaction Trend
+### 2.2.Monthly Transaction Trend
 
 Next, we examine how transactions change in terms of sales (based on `Final_Price(Rs.)`) and products sold in the past months
 
@@ -261,7 +261,7 @@ plt.show()
 ```
 <img src="/images/dual_axis.png" alt="Sales and Products Sold"/>
 
-### 3. Correlation Matrix Analysis
+### 2.3. Correlation Matrix Analysis
 Finally, we are conducting a correlation matrix across `price`, `discount`, and `final_price`
 
 ```python
@@ -279,4 +279,4 @@ plt.show()
 ```
 <img src="/images/matrix.png" alt="Correlation Matrix"/>
 
-### 4. Export a Data Visualisation
+### 3. Export a Data Visualisation
