@@ -5,7 +5,8 @@ Reviewed: No
 
 ## E-commerce Transaction Analysis
 
-**Project description:** This project explores customer transaction behavior in an e‑commerce setting by first rigorously cleaning and standardizing raw purchase data, then uncovering key patterns through distribution, trend, and correlation analyses. Beginning with a full overview of data completeness and structure, we convert purchase timestamps to a unified datetime format, harmonize categorical fields (e.g., product categories and payment methods), and remove duplicate records to ensure accuracy. With our cleaned dataset, we then quantify how sales are distributed across categories and payment options, track monthly transaction volumes to reveal seasonality or growth trends, and investigate relationships between variables to inform strategic pricing, marketing, and product decisions.
+**Project description:** 
+This project explores customer transaction behavior in an e‑commerce setting by first rigorously cleaning and standardizing raw purchase data, then uncovering key patterns through distribution, trend, and correlation analyses. Beginning with a full overview of data completeness and structure, we convert purchase timestamps to a unified datetime format, harmonize categorical fields (e.g., product categories and payment methods), and remove duplicate records to ensure accuracy. With our cleaned dataset, we then quantify how sales are distributed across categories and payment options, track monthly transaction volumes to reveal seasonality or growth trends, and investigate relationships between variables to inform strategic pricing, marketing, and product decisions.
 
 ## 1. Clean Transaction data before further analysis
 
