@@ -257,8 +257,7 @@ plt.title('Monthly Sales & Product Count Trend (Dual Axis)')
 fig.tight_layout()
 plt.show() 
 ```
-<img src="/images/cat_distribution.png" alt="Category Distribution"/>
-<img src="/images/pay_distribution.png" alt="Payment Distribution"/>
+<img src="/images/dual_axis.png" alt="Sales and Products Sold"/>
 
 
 ### 3. Support the selection of appropriate statistical tools and techniques
