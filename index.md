@@ -8,7 +8,7 @@
 <img src="images/dummy_thumbnail.jpg" alt="Project Thumbnail"/>
 
 
-[E-Commerce Transaction Analysis](./Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60.md)
+[E-Commerce Transaction Analysis](/Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60/)
 <img src="images/dummy_thumbnail.jpg" alt="Project Thumbnail"/>
 
 ---
