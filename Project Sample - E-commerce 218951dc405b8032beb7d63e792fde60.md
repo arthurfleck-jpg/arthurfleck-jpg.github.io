@@ -200,10 +200,8 @@ df['Payment_Method'].value_counts().plot.pie(
 plt.ylabel('')
 plt.show() 
 ```
-
-![Figure_1.png](Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60/Figure_1.png)
-
-![Figure_12.png](Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60/Figure_12.png)
+<img src="images/cat_distribution.png?raw=true"/>
+<img src="images/pay_distribution.png?raw=true"/>
 
 ### 3. Support the selection of appropriate statistical tools and techniques
 
