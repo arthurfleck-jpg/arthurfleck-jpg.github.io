@@ -8,8 +8,8 @@
 <img src="images/football_app.jpeg?raw=true"/>
 
 ---
-[Project 2 Title](/Project Sample - E-commerce 218951dc405b8032beb7d63e792fde60.md)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Project 2 Title](./Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60.md)  
+<img src="images/dummy_thumbnail.jpg" alt="Project Thumbnail"/>
 
 ---
 
