@@ -8,7 +8,7 @@ permalink: /Project Sample - E-commerce 218951dc405b8032beb7d63e792fde60/
 
 Created: June 20, 2025 1:43 PM
 
-**Project description:** This project explores customer transaction behavior in an e‑commerce setting by first rigorously cleaning and standardizing raw purchase data, then uncovering key patterns through distribution, trend, and correlation analyses. Beginning with a full overview of data completeness and structure, we convert purchase timestamps to a unified datetime format, harmonize categorical fields (e.g., product categories and payment methods), and remove duplicate records to ensure accuracy. With our cleaned dataset, we then quantify how sales are distributed across categories and payment options, track monthly transaction volumes to reveal seasonality or growth trends, and investigate relationships between variables to inform strategic pricing, marketing, and product decisions.
+**Project description:** This project explores customer transaction behavior in an e-commerce setting. We begin by rigorously cleaning and standardizing raw purchase data, then uncover key patterns through distribution, trend, and correlation analyses. First, we get a full overview of the data's completeness and structure, convert purchase timestamps to a unified datetime format, harmonize categorical fields (e.g., product categories and payment methods), and remove duplicate records to ensure accuracy. With our cleaned dataset, we then quantify how sales are distributed across categories and payment options, track monthly transaction volumes to reveal seasonality or growth trends, and investigate relationships between variables to inform strategic pricing, marketing, and product decisions.
 
 ## 1. Clean Transaction data before further analysis
 
@@ -170,7 +170,7 @@ With the data cleaned, we can now perform a straightforward transaction analysis
 
 ### 1. Distribution Analysis on Category and Payment Method
 
-First, we examine how transactions are distributed across product categories and payment methods:
+First, we examine how transactions are distributed across `Category` and `Payment_Method`:
 
 ```python
 # Distribution analysis for Category
@@ -211,7 +211,7 @@ plt.show()
 
 ### 2.Monthly Transaction Trend
 
-Next, we examine how transactions change in terms of sales and products sold in the past months
+Next, we examine how transactions change in terms of sales (based on `Final_Price(Rs.)`) and products sold in the past months
 
 ```python
 # Monthly sales trend analysis
@@ -262,7 +262,7 @@ plt.show()
 <img src="/images/dual_axis.png" alt="Sales and Products Sold"/>
 
 ### 3. Correlation Matrix Analysis
-Finally, we are conducting a correlation matrix across price, discounts, and final price
+Finally, we are conducting a correlation matrix across `price`, `discount`, and `final_price`
 
 ```python
 # Correlation matrix and heatmap for price, discount, and final price
