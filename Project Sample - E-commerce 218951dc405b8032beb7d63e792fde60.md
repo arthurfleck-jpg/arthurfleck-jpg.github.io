@@ -1,3 +1,9 @@
+---
+layout: default
+title: E-Commerce Transaction Analysis
+permalink: /ecommerce-analysis/
+---
+
 # E-commerce Transaction Analysis
 
 Created: June 20, 2025 1:43 PM
