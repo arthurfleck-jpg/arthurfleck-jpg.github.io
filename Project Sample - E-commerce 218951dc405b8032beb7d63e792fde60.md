@@ -20,6 +20,8 @@ First, we inspect the dataset’s structure, missing values, basic statistics, a
 
 ```python
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Read the dataset
 file_path = 'ecommerce_dataset_updated.csv'
@@ -259,8 +261,23 @@ plt.show()
 ```
 <img src="/images/dual_axis.png" alt="Sales and Products Sold"/>
 
-
 ### 3. Support the selection of appropriate statistical tools and techniques
+Finally, we are conducting a correlation matrix across price, discounts, and final price
+
+```python
+# Correlation matrix and heatmap for price, discount, and final price
+print('\nCorrelation Matrix (Price, Discount, Final Price):')
+numeric_cols = ['Price (Rs.)', 'Discount (%)', 'Final_Price(Rs.)']
+corr_matrix = df[numeric_cols].corr()
+print(corr_matrix)
+
+plt.figure(figsize=(6, 5))
+sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt='.2f', square=True)
+plt.title('Correlation Heatmap: Price, Discount, Final Price')
+plt.tight_layout()
+plt.show()
+```
+<img src="/images/matrix.png" alt="Correlation Matrix"/>
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
