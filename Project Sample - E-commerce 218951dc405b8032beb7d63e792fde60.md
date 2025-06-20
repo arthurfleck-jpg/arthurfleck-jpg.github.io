@@ -203,8 +203,9 @@ df['Payment_Method'].value_counts().plot.pie(
 plt.ylabel('')
 plt.show() 
 ```
-<img src="images/cat_distribution.png?raw=true"/>
-<img src="images/pay_distribution.png?raw=true"/>
+<img src="/images/cat_distribution.png" alt="Category Distribution"/>
+<img src="/images/pay_distribution.png" alt="Payment Distribution"/>
+
 
 ### 2.Monthly Transaction Trend
 
@@ -256,8 +257,8 @@ plt.title('Monthly Sales & Product Count Trend (Dual Axis)')
 fig.tight_layout()
 plt.show() 
 ```
-<img src="images/cat_distribution.png?raw=true"/>
-<img src="images/pay_distribution.png?raw=true"/>
+<img src="/images/cat_distribution.png" alt="Category Distribution"/>
+<img src="/images/pay_distribution.png" alt="Payment Distribution"/>
 
 
 ### 3. Support the selection of appropriate statistical tools and techniques
