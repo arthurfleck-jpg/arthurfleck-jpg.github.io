@@ -206,6 +206,60 @@ plt.show()
 <img src="images/cat_distribution.png?raw=true"/>
 <img src="images/pay_distribution.png?raw=true"/>
 
+### 2.Monthly Transaction Trend
+
+Next, we examine how transactions change in terms of sales and products sold in the past months
+
+```python
+# Monthly sales trend analysis
+print('\nMonthly Sales Trend:')
+# Ensure Purchase_Date is datetime type
+if not pd.api.types.is_datetime64_any_dtype(df['Purchase_Date']):
+    df['Purchase_Date'] = pd.to_datetime(df['Purchase_Date'], errors='coerce', dayfirst=True)
+# Extract year and month
+monthly_sales = df.dropna(subset=['Purchase_Date']).copy()
+monthly_sales['YearMonth'] = monthly_sales['Purchase_Date'].dt.to_period('M')
+trend = monthly_sales.groupby('YearMonth')['Final_Price(Rs.)'].sum().sort_index()
+
+# Line plot for monthly sales trend
+trend.index = trend.index.astype(str)
+plt.figure(figsize=(10,6))
+plt.plot(trend.index, trend.values, marker='o')
+plt.title('Monthly Sales Trend')
+plt.xlabel('Month')
+plt.ylabel('Total Sales (Rs.)')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
+# Calculate monthly product count
+monthly_count = monthly_sales.groupby('YearMonth')['Product_ID'].count().sort_index()
+print('\nMonthly Product Count:')
+print(monthly_count)
+
+# Dual-axis plot: total sales and product count per month
+fig, ax1 = plt.subplots(figsize=(10,6))
+color = 'tab:blue'
+ax1.set_xlabel('Month')
+ax1.set_ylabel('Total Sales (Rs.)', color=color)
+ax1.plot(trend.index, trend.values, marker='o', color=color, label='Total Sales (Rs.)')
+ax1.tick_params(axis='y', labelcolor=color)
+plt.xticks(rotation=45)
+
+ax2 = ax1.twinx()
+color = 'tab:orange'
+ax2.set_ylabel('Product Count', color=color)
+ax2.plot(trend.index, monthly_count.values, marker='s', color=color, label='Product Count')
+ax2.tick_params(axis='y', labelcolor=color)
+
+plt.title('Monthly Sales & Product Count Trend (Dual Axis)')
+fig.tight_layout()
+plt.show() 
+```
+<img src="images/cat_distribution.png?raw=true"/>
+<img src="images/pay_distribution.png?raw=true"/>
+
+
 ### 3. Support the selection of appropriate statistical tools and techniques
 
 ### 4. Provide a basis for further data collection through surveys or experiments
