@@ -1,7 +1,7 @@
 ---
 layout: default
 title: E-Commerce Transaction Analysis
-permalink: /ecommerce-analysis/
+permalink: /Project Sample - E-commerce 218951dc405b8032beb7d63e792fde60/
 ---
 
 # E-commerce Transaction Analysis
