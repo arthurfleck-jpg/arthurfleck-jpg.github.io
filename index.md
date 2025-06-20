@@ -4,12 +4,12 @@
 
 ### Github Projects 
 
-[MLS Dashboard](https://mls-dashboard-neuu4ihhxf.streamlit.app/)
-<img src="images/football_app.jpeg?raw=true"/>
+[E-Commerce Transaction Analysis](./Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60.md)  
+<img src="images/dummy_thumbnail.jpg" alt="Project Thumbnail"/>
 
 ---
-[Project 2 Title](./Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60.md)  
-<img src="images/dummy_thumbnail.jpg" alt="Project Thumbnail"/>
+[MLS Dashboard](https://mls-dashboard-neuu4ihhxf.streamlit.app/)
+<img src="images/football_app.jpeg?raw=true"/>
 
 ---
 
