@@ -21,6 +21,11 @@
 
 ### Tableau Dashboard
 
+[Sales KPI Dashboard](https://public.tableau.com/views/sales_dashboard_v1/SalesDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<img src="images/sales_dashboard.jpg?raw=true"/>
+
+---
+
 [NBA Global Games Attendance 2003 - 2024](https://public.tableau.com/views/global_game_v3/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 <img src="images/nba_dashboard.jpg?raw=true"/>
 
@@ -29,7 +34,7 @@
 ### Sports Data Visualizations
 
 [U.S. Viewership: Major Sports League Finals 2013 - 2024](https://public.tableau.com/views/usa_sports_watch_v4/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-<img src="images/Viewership_dashboard.jpg?raw=true"/>
+<img src="images/viewership_dashboard.jpg?raw=true"/>
 
 ---
 
