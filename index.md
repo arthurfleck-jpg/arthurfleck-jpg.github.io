@@ -10,7 +10,7 @@
 ---
 
 [Travel Platform Clean Data](sample_page)
-<img src="images/dummy_thumbnail.jpeg?raw=true"/>
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
@@ -19,12 +19,14 @@
 
 ---
 
-### Tableau Visualizations
+### Tableau Dashboard
 
 [NBA Global Games Attendance 2003 - 2024](https://public.tableau.com/views/global_game_v3/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 <img src="images/nba_dashboard.jpg?raw=true"/>
 
 ---
+
+### Sports Data Visualizations
 
 [U.S. Viewership: Major Sports League Finals 2013 - 2024](https://public.tableau.com/views/usa_sports_watch_v4/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 <img src="images/Viewership_dashboard.png?raw=true"/>
