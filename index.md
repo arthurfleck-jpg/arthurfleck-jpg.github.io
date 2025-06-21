@@ -29,7 +29,7 @@
 ### Sports Data Visualizations
 
 [U.S. Viewership: Major Sports League Finals 2013 - 2024](https://public.tableau.com/views/usa_sports_watch_v4/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-<img src="images/Viewership_dashboard.png?raw=true"/>
+<img src="images/Viewership_dashboard.jpg?raw=true"/>
 
 ---
 
