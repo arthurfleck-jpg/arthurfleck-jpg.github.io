@@ -8,6 +8,12 @@
 <img src="images/e_commerce_thumb.jpg" alt="Project Thumbnail"/>
 
 ---
+
+[Travel Platform Clean Data](sample_page)
+<img src="images/dummy_thumbnail.jpeg?raw=true"/>
+
+---
+
 [MLS Dashboard](https://mls-dashboard-neuu4ihhxf.streamlit.app/)
 <img src="images/football_app.jpeg?raw=true"/>
 
