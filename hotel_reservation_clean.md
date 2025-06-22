@@ -6,6 +6,8 @@ permalink: /hotel_reservation_clean/
 
 ## Hotel Reservation Data Cleaning Analysis
 
+Github Link:https://github.com/arthurfleck-jpg/hotel_booking_clean
+
 **Project description:** This project explores the process of preparing and cleaning a hotel reservation dataset to ensure data integrity and enable accurate downstream analysis. The goal is to identify and resolve data quality issues such as missing values, inconsistent formats, and potential outliers that may affect modeling or business decision-making. 
 
 To ensure our transaction dataset yields reliable insights, we’ll perform four key data‑cleaning steps:
