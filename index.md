@@ -9,7 +9,7 @@
 
 ---
 
-[Travel Platform Clean Data](sample_page)
+[Product Sales Data Clean](sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
