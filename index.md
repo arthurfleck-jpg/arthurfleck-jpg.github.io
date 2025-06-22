@@ -10,7 +10,7 @@
 ---
 
 [Hotel Reservation Data Cleaning Analysis](/hotel_reservation_clean/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/hotel_clean.jpg?raw=true"/>
 
 ---
 
