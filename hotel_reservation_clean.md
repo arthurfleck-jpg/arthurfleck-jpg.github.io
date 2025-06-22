@@ -410,7 +410,7 @@ There are no signs of spelling errors, inconsistent labeling, or invalid values 
 
 Next, we can do a further analysis on numeric columns by the output boxplot:
 
-![lead_time_boxplot.png](Project%20Example%20-%20Hotel%20Reservation%2021a951dc405b80989ef8e2f9ee393b87/lead_time_boxplot.png)
+<img src="/images/pay_distribution.png" alt="Payment Distribution"/>
 
 ![avg_price_per_room_boxplot.png](Project%20Example%20-%20Hotel%20Reservation%2021a951dc405b80989ef8e2f9ee393b87/avg_price_per_room_boxplot.png)
 
