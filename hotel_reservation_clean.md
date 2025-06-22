@@ -410,17 +410,17 @@ There are no signs of spelling errors, inconsistent labeling, or invalid values 
 
 Next, we can do a further analysis on numeric columns by the output boxplot:
 
-<img src="/images/pay_distribution.png" alt="Payment Distribution"/>
+<img src="/images/avg_price_per_room_boxplot.png" alt="Average Price Per Room"/>
 
-![avg_price_per_room_boxplot.png](Project%20Example%20-%20Hotel%20Reservation%2021a951dc405b80989ef8e2f9ee393b87/avg_price_per_room_boxplot.png)
+<img src="/images/lead_time_boxplot.png" alt="Lead Time"/>
 
-![no_of_previous_cancellations_boxplot.png](Project%20Example%20-%20Hotel%20Reservation%2021a951dc405b80989ef8e2f9ee393b87/no_of_previous_cancellations_boxplot.png)
+<img src="/images/no_of_children_boxplot.png" alt="Number of Children"/>
 
-![no_of_children_boxplot.png](Project%20Example%20-%20Hotel%20Reservation%2021a951dc405b80989ef8e2f9ee393b87/no_of_children_boxplot.png)
+<img src="/images/no_of_previous_cancellations_boxplot.png" alt="Number of Previous Cancelation"/>
 
-![no_of_weekend_nights_boxplot.png](Project%20Example%20-%20Hotel%20Reservation%2021a951dc405b80989ef8e2f9ee393b87/no_of_weekend_nights_boxplot.png)
+<img src="/images/no_of_week_nights_boxplot.png" alt="Number of Week Nights"/>
 
-![no_of_week_nights_boxplot.png](Project%20Example%20-%20Hotel%20Reservation%2021a951dc405b80989ef8e2f9ee393b87/no_of_week_nights_boxplot.png)
+<img src="/images/no_of_weekend_nights_boxplot.png" alt="Number of Weekend Nights"/>
 
 From the boxplots of numeric columns like `lead_time` and `avg_price_per_room`, we identified some extreme values:
 
