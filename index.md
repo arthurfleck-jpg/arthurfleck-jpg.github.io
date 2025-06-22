@@ -4,13 +4,13 @@
 
 ### Github Projects 
 
-[E-Commerce Transaction Analysis](/Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60/)
-<img src="images/e_commerce_thumb.jpg" alt="Project Thumbnail"/>
+[Hotel Reservation Data Cleaning Analysis](/hotel_reservation_clean/)
+<img src="images/hotel_clean.jpg?raw=true"/>
 
 ---
 
-[Hotel Reservation Data Cleaning Analysis](/hotel_reservation_clean/)
-<img src="images/hotel_clean.jpg?raw=true"/>
+[E-Commerce Transaction Analysis](/Project%20Sample%20-%20E-commerce%20218951dc405b8032beb7d63e792fde60/)
+<img src="images/e_commerce_thumb.jpg" alt="Project Thumbnail"/>
 
 ---
 
