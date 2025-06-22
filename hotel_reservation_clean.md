@@ -491,9 +491,3 @@ Cleaning Summary: Before vs After
 ```
 
 We cleaned a total of **140 records** that presented logical or statistical anomalies. The final dataset is more consistent with realistic hotel booking operations and is now ready for further analysis such as segmentation, forecasting, or pricing strategy modeling.
-
-例如，avg_price_per_room 的最小值或最大值是否在合理范围内？no_of_adults 是否有0值？
-
-我们还应该重点为 lead_time (提前预订天数) 绘制箱形图。提前非常久（比如超过一年）的预订，可能存在异常。同样，no_of_previous_cancellations (过往取消次数) 也值得一看，一个有几十次取消记录的客人，行为模式会比较特殊。
-
-对于一个数据清洗项目来说，更重要的是**识别**出它们，并**讨论**可能的处理方法（如删除、替换、或保留）。对于分类型数据中的不一致，我们的目标是进行修正，统一它们的格式。
