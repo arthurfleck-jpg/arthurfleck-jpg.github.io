@@ -6,10 +6,15 @@ permalink: /hotel_reservation_clean/
 
 ## Hotel Reservation Data Cleaning Analysis
 
-The full project code is available on the [GitHub repository](https://github.com/arthurfleck-jpg/hotel_booking_clean).
+**Tools Used:** Python
+**Project Type:** Data Cleaning
+**Project Link:** The full project code is available on the [GitHub repository](https://github.com/arthurfleck-jpg/hotel_booking_clean).
 
-**Project description:** This project explores the process of preparing and cleaning a hotel reservation dataset to ensure data integrity and enable accurate downstream analysis. The goal is to identify and resolve data quality issues such as missing values, inconsistent formats, and potential outliers that may affect modeling or business decision-making. 
+**Project Background:** This project explores the process of preparing and cleaning a hotel reservation dataset to ensure data integrity and enable accurate downstream analysis. The goal is to identify and resolve data quality issues such as missing values, inconsistent formats, and potential outliers that may affect modeling or business decision-making. 
 
+**Executive Summary:** We cleaned a total of **140 records** that presented logical or statistical anomalies,most of which comes from data with no-adults accompanied reservation and high room price anomalies.The final dataset is more consistent with realistic hotel booking operations and is now ready for further analysis such as segmentation, forecasting, or pricing strategy modeling.
+
+**Project Walkthrough:**
 To ensure our transaction dataset yields reliable insights, we’ll perform four key data‑cleaning steps:
 
 ### 1. Dataset Overview
@@ -497,5 +502,3 @@ Cleaning Summary: Before vs After
 | Outliers (Overpriced) | 1        | 0        |
 | Total Rows            | 36275    | 36135    |
 ```
-
-We cleaned a total of **140 records** that presented logical or statistical anomalies. The final dataset is more consistent with realistic hotel booking operations and is now ready for further analysis such as segmentation, forecasting, or pricing strategy modeling.
