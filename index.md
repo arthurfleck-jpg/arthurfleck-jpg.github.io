@@ -2,7 +2,7 @@
 
 ---
 
-### Github Projects 
+### Data Analysis 
 
 [Hotel Reservation Data Cleaning Analysis](/hotel_reservation_clean/)
 <img src="images/hotel_clean.jpg?raw=true"/>
