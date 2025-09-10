@@ -14,11 +14,6 @@
 
 ---
 
-[MLS Dashboard](https://mls-dashboard-neuu4ihhxf.streamlit.app/)
-<img src="images/football_app.jpeg?raw=true"/>
-
----
-
 ### Tableau Dashboard
 
 [Sales KPI Dashboard](https://public.tableau.com/views/sales_dashboard_v1/SalesDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
